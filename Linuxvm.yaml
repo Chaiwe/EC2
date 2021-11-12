@@ -1,11 +1,13 @@
-EC2Instance:
-  Type: AWS::EC2::Instance
-  Properties: 
-    ImageId: ami-04ad2567c9e3d7893
-    InstanceType: t2.micro
-    KeyName: MyLap
-    SecurityGroupIds: 
-      - sg-dc0a53c7
-    SecurityGroups: 
-      - default
-    SubnetId: subnet-b4376795
+AWSTemplateFormatVersion: 2010-09-09
+Resources:
+  EC2Instance:
+    Type: AWS::EC2::Instance
+    Properties: 
+      ImageId: ami-04ad2567c9e3d7893
+      InstanceType: t2.micro
+      KeyName: MyLap
+      SecurityGroupIds: 
+        - sg-dc0a53c7
+      SecurityGroups: 
+        - default
+      SubnetId: subnet-b4376795
