@@ -4,4 +4,4 @@ Resources:
     Type: AWS::S3::Bucket
     Description: creating s3 bucket from cloudformation
     Properties: 
-      BucketName: bucket-chaithanya-12533
+      BucketName: bucket-chaithanya-125daa
