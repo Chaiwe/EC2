@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: 2010-09-09
 Resources:
-  S3Bucket:
+  s3bucket:
     Type: AWS::S3::Bucket
     Description: creating s3 bucket from cloudformation
     Properties: 
-      BucketName: bucket-chaithanya-125daa
+      BucketName: bcket-chaithanya12-125daa
